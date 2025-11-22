@@ -1,0 +1,146 @@
+============================================================
+CHAIN LOSS CORRECTION - COMMANDS TO RUN
+============================================================
+
+Copy and paste these commands into your terminal/command prompt.
+
+
+QUICK START - Easiest Way:
+============================================================
+Double-click: RUN.bat
+
+OR
+
+Open Command Prompt/PowerShell in this folder and run:
+python example_simulation.py
+
+
+MAIN COMMANDS:
+============================================================
+
+1. Run Full Simulation (with plots):
+   python example_simulation.py
+
+2. Run Quick Demo (fast test):
+   python simple_demo.py
+
+3. Double-click to Run (Windows):
+   RUN.bat
+
+
+INDIVIDUAL PYTHON SCRIPTS:
+============================================================
+
+# Full simulation with visualization
+python example_simulation.py
+
+# Quick demonstration
+python simple_demo.py
+
+
+COMMAND PROMPT (Windows):
+============================================================
+
+# Navigate to this folder first:
+cd "C:\Users\Huzefa Aziz\Desktop\New folder (67)"
+
+# Then run:
+python example_simulation.py
+
+
+POWERSHELL (Windows):
+============================================================
+
+# Navigate to this folder first:
+cd "C:\Users\Huzefa Aziz\Desktop\New folder (67)"
+
+# Then run:
+python example_simulation.py
+
+# Or with unbuffered output:
+python -u example_simulation.py
+
+
+ONE-LINE TEST COMMANDS:
+============================================================
+
+# Test if Python works:
+python --version
+
+# Test if imports work:
+python -c "import chain_loss_simulation; print('OK!')"
+
+# Quick test run:
+python -c "from simple_demo import simple_demo; simple_demo()"
+
+
+INSTALL DEPENDENCIES (if needed):
+============================================================
+
+pip install -r requirements.txt
+
+OR individually:
+pip install numpy matplotlib seaborn
+
+
+WHAT EACH COMMAND DOES:
+============================================================
+
+python example_simulation.py
+  - Runs full simulation (6 rounds, 480 timesteps)
+  - Generates plots and saves to chain_loss_simulation_results.png
+  - Shows logical errors, chain losses, erased qubits
+  - Takes 1-2 minutes
+
+python simple_demo.py
+  - Quick demonstration (30 seconds)
+  - Shows basic functionality
+  - No plots, just text output
+  - Good for testing
+
+RUN.bat
+  - Windows batch file
+  - Double-click to run full simulation
+  - Same as: python example_simulation.py
+
+
+TROUBLESHOOTING COMMANDS:
+============================================================
+
+# If "python" not found, try:
+py example_simulation.py
+
+# Check if Python is installed:
+python --version
+py --version
+
+# Check if packages are installed:
+python -c "import numpy; import matplotlib; print('Packages OK')"
+
+# Install missing packages:
+pip install numpy matplotlib seaborn
+
+
+OUTPUT:
+============================================================
+
+After running, you'll get:
+  - chain_loss_simulation_results.png (visualization plots)
+  - Console output with statistics
+
+
+============================================================
+SHORT VERSION - Just copy these:
+============================================================
+
+Full simulation:
+  python example_simulation.py
+
+Quick demo:
+  python simple_demo.py
+
+Or double-click:
+  RUN.bat
+
+============================================================
+

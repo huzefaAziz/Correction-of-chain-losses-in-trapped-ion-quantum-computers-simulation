@@ -1,0 +1,78 @@
+============================================================
+CHAIN LOSS CORRECTION - HOW TO RUN
+============================================================
+
+EASIEST WAY (Windows):
+------------------------------------------------------------
+Double-click: RUN.bat
+
+
+COMMAND LINE OPTIONS:
+------------------------------------------------------------
+
+1. Quick Demo (Fast - 30 seconds):
+   python simple_demo.py
+
+2. Full Simulation (Complete with plots - 1-2 minutes):
+   python example_simulation.py
+
+3. Run Everything (Double-click):
+   RUN.bat
+
+
+WHAT EACH DOES:
+------------------------------------------------------------
+
+simple_demo.py
+  - Quick demonstration of chain loss correction
+  - Shows beacon qubit detection
+  - Fast execution (~30 seconds)
+  - Good for testing
+
+example_simulation.py
+  - Full simulation with 6 rounds
+  - Generates visualization plots
+  - Creates chain_loss_simulation_results.png
+  - Complete analysis
+
+RUN.bat
+  - Runs the full simulation
+  - Shows results automatically
+  - Double-click to use
+
+
+REQUIREMENTS:
+------------------------------------------------------------
+
+Make sure Python is installed:
+  python --version
+
+Install dependencies (if needed):
+  pip install -r requirements.txt
+
+
+TROUBLESHOOTING:
+------------------------------------------------------------
+
+If Python not found:
+  Try: py example_simulation.py (instead of python)
+
+If errors occur:
+  - Make sure you're in the correct folder
+  - Check that requirements.txt packages are installed
+  - Run: pip install numpy matplotlib seaborn
+
+If output doesn't show:
+  - Run from Command Prompt instead of double-click
+  - Or use: python -u example_simulation.py
+
+
+OUTPUT FILES:
+------------------------------------------------------------
+
+After running, you'll get:
+  - chain_loss_simulation_results.png (Visualization plots)
+
+
+============================================================
+
